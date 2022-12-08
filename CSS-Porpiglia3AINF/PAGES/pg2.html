@@ -52,6 +52,14 @@
             direction: ltr;
             -moz-osx-font-smoothing: grayscale;
            } 
+           /* menù dropdown */
+
+           .dropdown {position: relative; display: inline-block;}
+           .dropdown:hover .dropdown-content {display: block;}
+           .dropbtn {background-color: rgb(54, 54, 54); color: rgb(255, 255, 255); padding: 16px; font-size: 16px; border: none; border-radius: 15px;}
+           .dropdown-content {display: none; position: absolute; background-color: #333; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1; border-radius: 15px;}
+           .dropdown-content a {color: white; padding: 12px 16px; text-decoration: none; display: block;}
+           .dropdown-content a:hover {background-color: #111; border-radius: 15px;}
         </style>
         
         <meta charset="UTF-8">
@@ -64,8 +72,17 @@
             css
         </span>
         <p>Come usare la propietà "float" nel CSS (Cascading Style Sheet)</p>
-        <p>In questa pagina userò il CSS interno</p>
-        <a href="PAGES/pg3.html" class="a1">In quest'altra pagina userò il CSS In-line</a>
+        <p>In questa pagina sto usando il CSS interno</p>
+        <p>Usa questo menù per cambiare pagina</p>
+        <div class="dropdown">
+            <button class="dropbtn">Selezione pagina</button>
+            <div class="dropdown-content">
+                <a href="../index.html">Home</a>
+                <a href="pg1.html">CSS esterno</a>
+                <a href="pg3.html">CSS in-line</a>
+                <a href="sources.html">fonti</a>
+            </div>
+        </div>
         </center>
         <hr>
         <p>Un esempio su un paragrafo di parole che eredita l'allineamento dal parent tag</p>
