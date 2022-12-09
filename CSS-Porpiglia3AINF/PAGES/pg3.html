@@ -3,9 +3,9 @@
     <head>
         <title>Lorem Ipsum - Porpiglia 3AINF</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="GoogleFonts.css">
+        <link rel="stylesheet" href="CSS/GoogleFonts.css">
         <link rel="stylesheet" href="CSS/pg3-dropdown.css">
-        <link rel="stylesheet" href="googleMaterialIcons.css">  <!--Mi scusi ma sarebbe stato troppo complicato importare per ogni singolo elemento le proprietà date da Google Fonts-->
+        <link rel="stylesheet" href="CSS/googleMaterialIcons.css">  <!--Mi scusi ma sarebbe stato troppo complicato importare per ogni singolo elemento le proprietà date da Google Fonts-->
     </head>
 
     <body style="background-color: rgb(36, 36, 36); color: white; font-family: Space Mono;">
@@ -14,8 +14,8 @@
                 css
             </span>
             <p>Come usare la propietà "float" nel CSS (Cascading Style Sheet)</p>
-            <p>In questa pagina sto usando il CS2S In-Line (eccetto per i font e le icone da Google Fonts)</p>
-            <div class="dropdown">                                  <!--Mi scusi ma non è possibile far funzionare questo menù senza usare il css esterno-->>
+            <p>In questa pagina sto usando il CSS In-Line (eccetto per i font, le icone da Google Fonts e il menù dropdown)</p>
+            <div class="dropdown">                                  <!--Mi scusi ma non è possibile far funzionare questo menù senza usare il css esterno-->
                 <button class="dropbtn">Selezione pagina</button>
                 <div class="dropdown-content">
                     <a href="../index.html">Home</a>
@@ -39,7 +39,18 @@
             Placerat in egestas erat imperdiet. Suspendisse ultrices gravida dictum fusce ut placerat orci. Ante in nibh mauris cursus. Varius quam quisque id diam vel. 
             Purus gravida quis blandit turpis cursus in hac habitasse. Pulvinar sapien et ligula ullamcorper.</p>
         <hr style="width: 10%; color: white;">
-        <p>Un esempio su una immagine allineata a destra</p>
+        <p>Un esempio su una immagine allineata a destra -></p>
         <img src="IMAGES/360.jpg" alt="Gatto" style="float: right;">
+        <hr style="width: 10%; color: white;">
+        <p>Ecco degli esempi di link vari</p>
+        <a href="https://loremipsum.io/" target="_self">Questo link si aprirà in questa stessa pagina</a>
+        <br>
+        <a href="https://loremipsum.io/" target="_blank">Questo link si aprirà in una pagina diversa</a>
+        <br>
+        <a href="https://loremipsum.io/" target="_parent" style="text-decoration: none;">Questo link si aprirà in un parent frame, e non ha decorazioni (linea blu)</a>
+        <br>
+        <a href="https://loremipsum.io/" target="_top">Questo link si aprirà al di sopra di questa pagina</a>
+        <br>
+        <a href="mailto:alessandro.porpiglia@itismajo.onmicrosoft.com">Questo link ti fa mandare una mail</a>
     </body>
 </html>

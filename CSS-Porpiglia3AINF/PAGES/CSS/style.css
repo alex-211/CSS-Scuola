@@ -4,6 +4,7 @@ hr.half-width {width: 10%; color: white;}
 .a {font-family: BhuTuka Expanded One; font-weight: bold; float: inherit;}
 .lefty {float: right;} 
 .a1 {float: center;}
+.link {text-decoration: none;}
 
 /*NAVBAR*/
 ul {
