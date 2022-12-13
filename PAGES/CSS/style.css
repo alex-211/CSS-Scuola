@@ -1,10 +1,12 @@
 body {background-color: rgb(36, 36, 36); color: white; font-family: Space Mono;}
 hr {color: white;}
+div.quadrato {height: 80px; width: 80px; color: orangered; background-color: white;}
 hr.half-width {width: 10%; color: white;}
 .a {font-family: BhuTuka Expanded One; font-weight: bold; float: inherit;}
 .lefty {float: right;} 
 .a1 {float: center;}
 .link {text-decoration: none;}
+.colorato {color: red;}
 
 /*NAVBAR*/
 ul {
