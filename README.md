@@ -1,6 +1,6 @@
 # CSS-Scuola
 
-Questo è un sito (che si può trovare anche su [alex-211.github.io/CSS-Scuola](questo link)) che serve per far vedere al mio professore come so usare il CSS e fare il Web Development in generale.
+Questo è un sito (che si può trovare anche su [questo link](alex-211.github.io/CSS-Scuola)) che serve per far vedere al mio professore come so usare il CSS e fare il Web Development in generale.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
