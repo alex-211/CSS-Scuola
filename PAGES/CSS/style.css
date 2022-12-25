@@ -1,7 +1,31 @@
-body {background-color: rgb(36, 36, 36); color: white; font-family: Space Mono;}
-hr {color: white;}
-div.quadrato {height: 80px; width: 80px; color: orangered; background-color: white;}
-hr.half-width {width: 10%; color: white;}
+@media (prefers-color-scheme: dark)
+{
+  :root {
+
+    --bc: rgb(36, 36, 36);
+    --bc-dropdown: rgb(54, 54, 54);
+    --c: white;
+    --c-navbarUL: #333;
+    --c-navbarLI: #111;
+  }
+}
+
+@media (prefers-color-scheme: white)
+{
+  :root {
+
+    --bc: white;
+    --bc-dropdown: white;
+    --c: black ;
+    --c-navbarUL: rgba(255, 255, 255, 0.411);
+    --c-navbarLI: rgba(255, 255, 255, 0.411);
+  }
+}
+
+body {background-color: var(--bc); color: var(--c); font-family: Space Mono;}
+hr {color: var(--c);}
+div.quadrato {height: 80px; width: 80px; color: orangered; background-color: var(--bc);}
+hr.half-width {width: 10%; color: var(--c);}
 .a {font-family: BhuTuka Expanded One; font-weight: bold; float: inherit;}
 .lefty {float: right;} 
 .a1 {float: center;}
@@ -14,7 +38,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--c-navbarUL);
   }
   
   li {
@@ -23,20 +47,20 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: var(--c);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   li a:hover {
-    background-color: #111;
+    background-color: var(--c-navbarLI);
   }
 
 /* menù dropdown */
 
 .dropdown {position: relative; display: inline-block;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropbtn {background-color: rgb(54, 54, 54); color: rgb(255, 255, 255); padding: 16px; font-size: 16px; border: none; border-radius: 15px;}
-.dropdown-content {display: none; position: absolute; background-color: #333; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1; border-radius: 15px;}
-.dropdown-content a {color: white; padding: 12px 16px; text-decoration: none; display: block;}
-.dropdown-content a:hover {background-color: #111; border-radius: 15px;}
+.dropbtn {background-color: var(--bc-dropdown); color: var(--c); padding: 16px; font-size: 16px; border: none; border-radius: 15px;}
+.dropdown-content {display: none; position: absolute; background-color: var(--bc-dropdown); min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1; border-radius: 15px;}
+.dropdown-content a {color: var(--c); padding: 12px 16px; text-decoration: none; display: block;}
+.dropdown-content a:hover {background-color: var(--c-navbarLI); border-radius: 15px;}
