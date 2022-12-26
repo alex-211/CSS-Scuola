@@ -39,3 +39,8 @@ Nel mio sito ci sono più file stylesheet perché applicare tutte le proprietà 
 
 Questa è una pagina filler, non accessibile dall'utente del sito, che mi serve a tenere del codice per le pagine che non sono ancora pronte ad essere mostrate. C'è una icona del martello e chiave inglese e un bottone per tornare alla home.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Script *theme-allert.js*
+
+La pagina 3 con il CSS in-line non permette di cambiare il tema della pagina in base al tema dell'utente, quindi viene fatto vedere un alert dalla pagine. Per far ciò, ho utilizzato un script in JavaScript.
+
