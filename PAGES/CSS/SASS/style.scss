@@ -1,4 +1,5 @@
 $font: Space Mono;
+$funky-font: BhuTuka Expanded One;
 
 @media (prefers-color-scheme: dark)
 {
@@ -6,6 +7,61 @@ $font: Space Mono;
     {
         $background: rgb(36, 36, 36);
         $bg-btn: rgb(54, 54, 54); // Navbar UL item and dropdown item
-        $col: 
+        $col: white;
+        $c-navbarUL: #333;
+        $c-navbarLI: #111;
     }
 }
+
+@media (prefers-color-scheme: light)
+{
+    :root
+    {
+        $background: white;
+        $bg-btn: gray;
+        $col: black;
+        $c-navbarUL: darkgray;
+        $c-navbarLI: gray;
+    }
+}
+
+body {background-color: $background; color: $col; font-family: $font;}
+hr {color: $col;}
+div.quadrato {height: 80px; width: 80px; color: orangered; background-color: $background}
+hr.half-width {width: 10%; color: $col;}
+.a {font-family: $funky-font; font-weight: bold; float: inherit;}
+.lefty {float: right;}
+.a1 {float: center;}
+.link {text-decoration: none;}
+.colorato {color: red;}
+
+//NAVBAR 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $c-navbarUL;
+}
+
+li {float: center;}
+
+li a {
+    display: block;
+    color: $col;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {background-color: $c-navbarLI;}
+
+// menù dropdown
+
+.dropdown {position: relative; display: inline-block;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropbtn {background-color: $bg-btn; color: $col; padding: 16px; font-size: 16px; border: none; border-radius: 15px;}
+.dropdown-content {display: none; position: absolute; background-color: $bg-btn; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1; border-radius: 15px;}
+.dropdown-content a {color: $col; padding: 12px 16px; text-decoration: none; display: block;}
+.dropdown-content a:hover {background-color: $c-navbarLI; border-radius: 15px;}
