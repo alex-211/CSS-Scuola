@@ -33,6 +33,8 @@ Nel mio sito ci sono più file stylesheet perché applicare tutte le proprietà 
 - googleMateriaIicons.css contiene le proprietà per le icone di Google
 - googleFonts.css contiene proprietà per i font di Google
 
+Inoltre è in corso la conversione al Sassy CSS, una "estensione" al CSS normale che facilita operazione complicate, supporta le funzioni e gestisce meglio le variabili.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Pagina Filler *inDev.html*
