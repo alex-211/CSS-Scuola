@@ -1,3 +1,5 @@
+/* cambia le variabili per cambiare tema in base a quello del PC dell'utente*/
+
 @media (prefers-color-scheme: dark)
 {
   :root {
