@@ -33,11 +33,13 @@ Nel mio sito ci sono più file stylesheet perché applicare tutte le proprietà 
 - googleMateriaIicons.css contiene le proprietà per le icone di Google
 - googleFonts.css contiene proprietà per i font di Google
 
+Inoltre è in corso la conversione al Sassy CSS, una "estensione" al CSS normale che facilita operazione complicate, supporta le funzioni e gestisce meglio le variabili.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Pagina Filler *inDev.html*
 
-Questa è una pagina filler, non accessibile dall'utente del sito, che mi serve a tenere del codice per le pagine che non sono ancora pronte ad essere mostrate. C'è una icona del martello e chiave inglese e un bottone per tornare alla home.
+Questa è una pagina filler, non accessibile dall'utente del sito, che mi serve a tenere del codice per le pagine che non sono ancora pronte ad essere mostrate. C'è una icona del martello e chiave inglese e un bottone per tornare alla home. Viene dimostrata sulla pagina *fonti.html*
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Script *theme-allert.js*
