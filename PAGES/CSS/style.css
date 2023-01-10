@@ -33,6 +33,7 @@ hr.half-width {width: 10%; color: var(--c);}
 .a1 {float: center;}
 .link {text-decoration: none;}
 .colorato {color: red;}
+.center {display: flex; flex-direction: column; align-items: center;}
 
 /*NAVBAR*/
 ul {
